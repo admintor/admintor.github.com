@@ -1,6 +1,6 @@
 ---
 layout: page
-title: welcome!
+title: ios && js
 ---
 {% include JB/setup %}
 <ul class="posts">

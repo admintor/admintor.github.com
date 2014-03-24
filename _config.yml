@@ -1,14 +1,14 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
+#permalink: /:categories/:year/:month/:day/:title 
 permalink: /:categories/:year/:month/:day/:title 
-
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : power is power
+title : 专注于ios和js，其他感兴趣的以后再说
 tagline: Site Tagline
 author :
   name : admintor
@@ -80,7 +80,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :

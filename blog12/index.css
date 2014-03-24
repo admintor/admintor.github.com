@@ -1,0 +1,620 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #333;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+#header{
+	max-width: 920px;
+	height: 30px;
+	margin:0 auto;
+	background-color: #ccc;
+}
+#header .logo{
+	 width: 100px;
+	 height: 30px;
+	 float: left;
+}
+#header .logo img{
+	display: block;
+}
+#header .member{
+	 width: 70px;
+	 height: 30px;
+	 line-height: 30px;
+	 float: right;
+	 cursor: pointer;
+	 position: relative;
+	 z-index: 4;
+}
+#header ul{
+	position: absolute;
+	top: 30px;
+	left: -10px;
+	background-color: #ccc;
+	width: 84px;
+	height: 0px;
+	border: 1px solid #999;
+	border-top: none;
+	padding: 7px 0 0 0;
+	display: none;
+	overflow: hidden;
+	opacity: 0;
+}
+#header ul li{
+	height: 25px;
+	line-height: 20px;
+	text-indent: 20px;
+	letter-spacing: 1px;
+}
+#header ul li a{
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+#header ul li a:hover{
+	background-color: #ccc;
+}
+#header .login,#header .login_info{
+	float: right;
+	width: 35px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+#header .login_info{
+	width: auto;
+	display: none;
+}
+#login{
+	width: 350px;
+	height: 250px;
+	border: 1px solid #ccc;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background-color: #fff; 
+}
+#login h2{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #666;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	cursor: move;
+}
+#login h2 img{
+	float: right;
+	position: relative;
+	top: 14px;
+	right: 8px;
+	cursor: pointer;
+}
+#login div.info{
+	padding: 15px 0 5px 0;
+	color: maroon;
+	text-align: center;
+}
+#login input.text{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	font-size: 14px;
+}
+#login div.user,#login div.pass{
+	font-size: 14px;
+	color: #666;
+	padding: 5px 0;
+	text-align: center;
+}
+#login input.submit{
+	width: 107px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	background-color: green;
+}
+#login div.button{
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px 0;
+}
+#login .other{
+	text-align: right;
+	padding: 18px 10px;
+	color: #666;
+}
+#login .other a{
+	text-decoration: none;
+	color: #666;
+}
+#screen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #666;
+	z-index: 9998;
+	opacity: 0.3;
+	opacity: 0;
+	display: none;
+}
+#share{
+	width: 210px;
+	height: 315px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 0px;
+	left: -210px;
+	background-color: white;
+}
+#share h2{
+	height: 30px;
+	line-height: 30px;
+	background:#eee;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	color: #666;
+	text-indent: 10px;
+}
+#share ul{
+	height: 254px;
+	padding: 3px 0 2px 5px;
+}
+#share ul li{
+	width: 96px;
+	height: 28px;
+	float: left;
+	padding:2px;
+}
+#share ul li a{
+	display: block;
+	width: 95px;
+	height: 26px;
+	line-height: 26px;
+	text-decoration: none;
+	color: #666;
+	background-image: url(images/share_bg.png);
+	background-repeat: no-repeat;
+	text-indent: 30px;
+}
+#share ul li a:hover{
+	color: #06f;
+	opacity: 0.7;
+}
+#share ul li a.a0{
+	background-position: 5px 4px;
+}
+#share ul li a.a1{
+	background-position: 5px -26px;
+}
+#share ul li a.a2{
+	background-position: 5px -56px;
+}
+#share ul li a.a3{
+	background-position: 5px -86px;
+}
+#share ul li a.a4{
+	background-position: 5px -116px;
+}
+#share ul li a.a5{
+	background-position: 5px -146px;
+}
+#share ul li a.a6{
+	background-position: 5px -176px;
+}
+#share ul li a.a7{
+	background-position: 5px -206px;
+}
+#share ul li a.a8{
+	background-position: 5px -236px;
+}
+#share ul li a.a9{
+	background-position: 5px -266px;
+}
+#share ul li a.a10{
+	background-position: 5px -296px;
+}
+#share ul li a.a11{
+	background-position: 5px -326px;
+}
+#share ul li a.a12{
+	background-position: 5px -356px;
+}
+#share ul li a.a13{
+	background-position: 5px -386px;
+}
+#share ul li a.a14{
+	background-position: 5px -416px;
+}
+#share ul li a.a15{
+	background-position: 5px -446px
+}
+#share .share_footer{
+	height: 26px;
+	background-color: #eee;
+	position: relative;
+}
+#share .share_footer a{
+	position: absolute;
+	top: 7px;
+	left: 140px;
+	padding: 0 0 0 13px;
+	background-image:#eee url(images/share_bg.png)no-repeat 0 -477px;
+	text-decoration: none;
+	color: #666;
+}
+#share .share_footer a:hover{
+	color: #06f;
+	opacity: 0.7;
+}
+#share .share_footer span{
+	display: block;
+	width: 24px;
+	height: 88px;
+	position: absolute;
+	top: -230px;
+	left: 210px;
+	background-image: url(images/share.png) no-repeat;
+	background-color: red; 
+	cursor: pointer;
+}
+#nav{
+	width: 465px;
+	height: 52px; 
+	background-image: url(images/);
+	margin: 50px auto 0 auto;
+	position: relative;
+}
+#nav ul{
+	position: absolute;
+}
+#nav ul li{
+	width: 85px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+#nav ul.black{
+	left: 20px;
+	z-index: 1;
+	color: #333;
+}
+#nav ul.white{
+	width: 425px;
+	color: yellow;
+	z-index: 3;
+	left: 0;
+}
+#nav ul.about{
+	z-index: 4;
+	left: 20px;
+	cursor: pointer;
+	background-color: red;
+	opacity: 0;
+}
+#nav div.nav_bg{
+	width: 85px;
+	height: 52px;
+	background-image: url(images/nav_over.png) no-repeat 0 11px;
+	background-color: blue;
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	z-index: 2;
+	opacity: 0.3;
+	overflow: hidden;
+}
+#main{
+	width: 900px;
+	margin: 50px auto;
+}
+#sidebar{
+	width: 250px;
+	height: 500px;
+	float: left;
+}
+#sidebar h2{
+	width: 248px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-color: #fff;
+	text-indent: 10px;
+	border: 1px solid #ccc;
+	border-bottom: none; 
+	margin: 0;
+}
+#sidebar ul{
+	height: 150px;
+	border: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+#sidebar ul li{
+	height: 30px;
+	line-height: 30px;
+	background-color: #eee;
+	text-indent: 30px;
+}
+#sidebar ul li a{
+	text-decoration: none;
+	color: #333;
+}
+#index{
+	width: 630px;
+	height: 570px;
+	float: right;
+	background-color: gray;
+}
+#banner{
+	width: 900px;
+	height: 150px;
+	margin: 10px auto 10px 130px;
+	position: relative;
+	overflow: hidden;
+}
+#banner img{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#banner ul{
+	position: absolute;
+	top: 128px;
+	left: 420px;
+	z-index: 4;
+}
+#banner ul li{
+	float: left;
+	padding: 0 5px;
+	font-size: 16px;
+	color: #999;
+	cursor: pointer;
+}
+#banner span{
+	width: 900px;
+	height: 25px;
+	position: absolute;
+	top: 125px;
+	left: 0;
+	background-color: #333;
+	opacity: 0.3;
+	z-index: 3;
+}
+#banner strong{
+	position: absolute;
+	color: #fff;
+	top:130px;
+	left: 10px;
+	z-index: 4;
+}
+#photo{
+	width: 900px;
+	float: left;
+	margin-left: 150px;
+}
+#photo dl{
+	width: 225px;
+	height: 270px;
+	float: left;
+	background-color: #eee;
+	margin: 5px 0 15px 0;
+}
+#photo dl dt{
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #999;
+	cursor: pointer;
+}
+#photo dl dd{
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+#photo_big{
+	width: 620px;
+	height: 511px;
+	border: 1px solid #ccc;
+	position: absolute;
+	z-index: 9999;
+	background-color: #fff;
+	display: none;
+	top: 100px;
+	left: 200px;
+}
+#photo_big h2{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #666;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+	cursor: move;
+}
+#photo_big h2 img{
+	float: right;
+	position: relative;
+	top: 14px;
+	right: 8px;
+	cursor: pointer;
+}
+#photo_big .big{
+	width: 620px;
+	height: 460px;
+	padding: 10px 0 0 0;
+	background-color: #333;
+}
+#photo_big .big img{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 190px;
+}
+#photo_big .big strong{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #000;
+	opacity: 0;
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+}
+#photo_big .big .sl{
+	top: 210px;
+	left: 20px;
+}
+#photo_big .big .sr{
+	top: 210px;
+	right: 20px;
+}
+#photo_big .big span{
+	display: block;
+	width: 300px;
+	height: 450px;
+	background-color: #000;
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+}
+#photo_big .big span.left{
+	top:50px;
+	left: 10px;
+}
+#photo_big .big span.right{
+	top:50px;
+	right: 10px;
+}
+#photo_big .big em{
+	position: absolute;
+	top: 480px;
+	right: 20px;
+	color: #fff;
+	font-style: normal;
+	font-size: 14
+}
+#loading{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	z-index: 10000;
+	display: none;
+}
+#loading{
+	text-align: center;
+	font-size: 14px;
+	color: red;
+}
+#suc{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	z-index: 10000;
+	display: none;
+}
+#suc{
+	text-align: center;
+	font-size: 14px;
+	color: red;
+}
+#exit{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	z-index: 10000;
+	display: none;
+}
+#exit{
+	text-align: center;
+	font-size: 14px;
+	color: red;
+}
+#blog{
+	width: 580px;
+	height: 320px;
+	border: 1px solid #ccc;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background-color: #fff;
+}
+#blog h2{
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #666;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	cursor: move;
+}
+#blog h2 img{
+	float: right;
+	position: relative;
+	top: 14px;
+	right: 8px;
+	cursor: pointer;
+}
+#blog dl dd{
+	padding:5px;
+	font-size: 14px;
+}
+#blog dl dd input.title{
+	width: 200px;
+	height: 25px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	font-size: 14px;
+	color: #666;
+}
+#blog dl dd textarea.content{
+	width: 360px;
+	height: 100px;
+	max-width: 400px;
+	max-height: 150px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+#blog dl dd input.submit{
+	width: 107px;
+	height: 33px;
+	border: none;
+	background-color: red;
+	cursor: pointer;
+}
+#blog div.info{
+	padding: 2px 0 0 0;
+	text-align: center;
+	color: maroon;
+}

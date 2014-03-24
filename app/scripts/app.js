@@ -11,8 +11,8 @@ routeApp.config(['$routeProvider',function($routeProvider){
 	}).when('/about',{
 		templateUrl:'views/route/about.html',
 		controller:'aboutController'
-	}).when('/dev',{
-		template:'hello dev',
+	}).when('/page',{
+		templateUrl:'views/route/page.html',
 		controller:'devController'
 	})
 	.otherwise({
