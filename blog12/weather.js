@@ -12,7 +12,7 @@ function httpRequest(url,callback){
 function showWeather(result){
 	result=JSON.parse(result);
 	var list=result.list;
-	console.log(list);
+	//console.log(list);
 	var table='<table><tr><th>'+'菏泽'+'</th><th>天气</th><th>最低温度</th><th>最高温度</th></tr>';
 	for (var i in list) {
 		var d=new Date(list[i].dt*1000);
