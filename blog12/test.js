@@ -1,5 +1,4 @@
 var canvas=document.getElementById('clock');
-console.dir(canvas);
 var context=canvas.getContext('2d');
 function drawClock(){
 	var now=new Date();
