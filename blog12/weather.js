@@ -30,4 +30,3 @@ function showWeather(result){
 var city='heze';
 var url = 'http://api.openweathermap.org/data/2.5/forecast/daily?q='+city+',china&lang=zh_cn';
 httpRequest(url,showWeather);
-console.log("hi");

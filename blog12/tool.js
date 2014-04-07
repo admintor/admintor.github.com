@@ -138,3 +138,18 @@ function setCookieDate(day){
 	}
 	return date;
 }
+function insertRule(sheet,selectorText,cssText,position){
+	if (typeof sheet.insertRule!='undefined') {
+		sheet.insertRule(selectorText+'{'+cssText+'}',position);
+	}else if(typeof sheet.addRule!='undefined'){
+		sheet.addRule(selectorText,cssText,position);
+	} 
+}
+
+function removeRule(sheet,index){
+	if(typeof sheet.deleteRule!='undefined'){
+		sheet.deleteRule(index);
+	}else if(typeof sheet.removeRule!='undefined'){
+		sheet.removeRule(index);
+	}
+}

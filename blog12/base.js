@@ -462,3 +462,15 @@ Base.prototype.animate=function(obj){
 	}
 	return this;
 }
+
+Base.prototype.addRule=function(numm,selectorText,cssText,position){
+	sheet=document.styleSheets[num];
+	insertRule(sheet,selectorText,cssText,position);
+	return this;
+}
+
+Base.prototype.removeRule=function(numm,index){
+	sheet=document.styleSheets[num];
+	removeRule(sheet,index)
+	return this;
+}
