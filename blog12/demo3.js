@@ -131,7 +131,7 @@ window.onload=function(){
 	 				target:150,
 	 				t:30,
 	 				step:10
-	 			}).css('zIndex',1);
+	 			}).css('zIndex',1).opacity(0);
 	 			$('#banner img').eq($(obj).index()).animate({
 	 				attr:'y',
 	 				target:0,
