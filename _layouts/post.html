@@ -1,17 +1,10 @@
 ---
-layout: other
+layout: default
 ---
-<div id="post">
-{{ content }}
-</div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'admintor';
-    var disqus_identifier = '{{ page.id }}';
 
-    /*(function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();*/
-</script>
+<article class="single row gutters">
+  <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
+  <h2>{{ page.title }}</h2>
+
+  {{ content }}
+</article>

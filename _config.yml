@@ -1,2 +1,9 @@
-markdown: rdiscount
+markdown: redcarpet
 pygments: true
+permalink: /:title
+
+url:
+baseurl:
+
+redcarpet:
+  extensions: [strikethrough, tables]
