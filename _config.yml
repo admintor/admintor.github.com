@@ -1,9 +1,7 @@
-markdown: redcarpet
 pygments: true
-permalink: /:title
-
-url:
-baseurl:
-
-redcarpet:
-  extensions: [strikethrough, tables]
+permalink: /otter-pop/:year/:month/:day/:title
+markdown: rdiscount
+exclude: ['.git']
+name: "Otter Pop"
+description: "The world's greated jekyll theme"
+url: http://tybenz.com/otter-pop
