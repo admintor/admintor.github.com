@@ -1,16 +1,36 @@
-# Skinny Bones Jekyll Starter
+Strange Case
+============
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+Strange Case is a simple, clean and responsive theme for Jekyll. 
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+### Demo 
 
----
+[Demo](http://thephuse.github.io/strange_case/)
 
-## Notable Features
+### Overview 
 
-* Stylesheet built using Sass. *Requires Jekyll 2.x*
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+* Fixed Sidebar with cover image
+* Minimal design 
+* Easy to configure
+* Browser support: Latest releases of Chrome, Safari, Firefox, Mobile Safari and IE 9+.
+
+### Screenshots
+
+![screenshot](/images/screenshot1.png)
+![screenshot](/images/screenshot2.png)
+
+### Setup
+
+1. Install [Jekyll](http://jekyllrb.com/)
+2. Fork or [download](https://github.com/thephuse/strange_case) this theme repo
+3. Edit the `_config.yml` file (if you make any additional changes to this file, you will need to stop and restart your command in the next step)
+4. From your command line, switch to your site directory and build using `jekyll serve`
+5. Site will be accessible by viewing http://localhost:4000/strange_case/
+
+### Download
+
+[Download](https://github.com/thephuse/strange_case)
+
+### License
+* [MIT](http://opensource.org/licenses/MIT)
