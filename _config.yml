@@ -1,27 +1,36 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+# Site wide configuration
 
-url: http://brianmaierjr.github.com/long-haul
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+title:
+description:
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+url:
 
-markdown: redcarpet
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
 highlighter: pygments
-paginate: 5
+gems:
+  - jekyll-sitemap
 
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
 
-social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
 
-google_analytics: "UA-58263416-1"
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
