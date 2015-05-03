@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Angularjs笔记
+title: "Angularjs笔记"
 tags: 
-datetime: 2014-04-24 21:00
+datetime: 2015-05-03 22:00
 pv: 40
 comment: 1
 share: weibo.com

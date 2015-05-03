@@ -1,6 +1,6 @@
 ---
 layout: post
-title: xt912变砖记
+title: "xt912变砖记"
 tags: android
 datetime: 2014-04-23 16:30
 pv: 40
