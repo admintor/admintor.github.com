@@ -1,9 +1,23 @@
-# Site settings
-title: 'Strange Case' # Your Title
-tagline: 'Twisted tales to make you shudder' # A brief tagline for your site
-sidebar_image: /images/cover.jpg
-
-# Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
-baseurl: /strange_case # the subpath of your site, e.g. /blog/
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
+
+blog:
+    name:     4o4err                                           # 博客名称
+    description:                                         # 博客描述
+    title:   console                                            # 网页标题
+    url:      weibo.com                                           # 博客地址
+    duoshuo:                                             # 多说ID
+    tongji:                                              # 百度统计ID
+    qiniu:                                               # 七牛云地址
+author:
+    name:      4o4err                                          # 作者名称
+    email:       cyin15288@qq.com                                        # 邮箱地址
+    weibo:                                               # 微博地址
+    github:                                              # GitHub地址
+    logo:                                                # logo地址
+    douban:
+        name:                                            # 豆瓣地址名称
+        key:                                             # 豆瓣API Key
