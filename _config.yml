@@ -15,8 +15,8 @@ blog:
 author:
     name:      4o4err                                          # 作者名称
     email:       cyin15288@qq.com                                        # 邮箱地址
-    weibo:                                               # 微博地址
-    github:                                              # GitHub地址
+    weibo:          http://weibo.com/1743358312/profile?topnav=1&wvr=6                                     # 微博地址
+    github:          https://github.com/admintor                                    # GitHub地址
     logo:                                              # logo地址
     douban:
         name:                                            # 豆瓣地址名称
